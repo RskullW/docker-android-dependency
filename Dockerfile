@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:24.04
 MAINTAINER Kovtun Anton <mailcom.99+hub@mail.ru>
 
 ENV VERSION_TOOLS "7583922"
@@ -15,7 +15,7 @@ RUN apt-get -qq update \
       curl \
       git-core \
       html2text \
-      openjdk-17-jdk \
+      openjdk-21-jdk \
      # libc6-i386 \
      # lib32stdc++6 \
      # lib32gcc1 \
